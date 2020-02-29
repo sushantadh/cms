@@ -1,0 +1,115 @@
+html
+{
+  font-family: Open Sans;
+}
+
+.container
+{
+    width:800px;
+    height: 100%;
+    position:absolute;
+    left:20%;
+    top:5%;
+}
+
+
+.logo{color:#444;}
+
+h1,h2,h3,h4,h5,h6,a,span
+{
+    color: #444;
+    line-height: 1.8;
+}
+p{font-family: Open Sans;}
+
+a.nav,a.nav:link,a.nav:visited
+{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none; 
+    border: none; !important
+    color:slateGray;
+}
+
+a.nav:hover
+{
+    color:#FFF;
+    background-color: #555555;
+}
+
+a:link,a:visited
+{
+    text-decoration:none;
+    border-bottom: 1px dotted;
+    color:slateGray;
+}
+a:hover
+{
+    color:#444;
+    
+}
+input[type="text"],input[type="password"]
+{
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.radio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.mybutton 
+{
+    height: 30px;
+    width: 80px;
+    border: 1px solid #555555;
+    margin-top:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #555555;
+    color: white;
+}
+
+
+.mybutton:hover
+{
+    background-color: #888888;
+}
+
+.border
+{
+    border-bottom: 1px dotted slateGray;
+    
+}
+
+.title
+{
+    font-size: 19px;
+    color: #444444;
+    font-weight: bold;
+    
+}
+
+.content
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.date,.author
+{
+    font-size: 14px;
+    color: grey;
+}
+
+
